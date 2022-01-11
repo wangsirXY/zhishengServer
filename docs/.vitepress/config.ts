@@ -8,7 +8,6 @@ export default {
   },
   themeConfig: {
     docsDir: 'docs',
-
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新',
@@ -48,12 +47,48 @@ function getGuideSidebar() {
       activeMatch: '^/config/'
     },
     {
+      text: 'Git注意事项',
+      link: '/documents/git注意事项',
+    },
+    {
       text: '二、数据库设计',
-      link: '/documents/zhisheng/二、数据库设计'
+      link: '/documents/zhisheng/二、数据库设计',
+      children: [
+        {
+          text: '1）技术分析',
+          link: '/documents/zhisheng/二、数据库设计/1.技术分析'
+        },
+        {
+          text: '2）数据库设计',
+          link: '/documents/zhisheng/二、数据库设计/2.数据库设计'
+        },
+      ]
     },
     {
       text: '三、接口设计',
-      link: '/documents/zhisheng/三、接口设计'
+      activeMatch: '^/config/',
+      children: [
+        {
+          text: '1）功能模块',
+          link: '/documents/zhisheng/三、接口设计/1.功能模块'
+        },
+        {
+          text: '2）用户模块',
+          link: '/documents/zhisheng/三、接口设计/2.用户模块'
+        },
+        {
+          text: '3）遇见模块',
+          link: '/documents/zhisheng/三、接口设计/3.遇见模块'
+        },
+        {
+          text: '4）就业规划模块',
+          link: '/documents/zhisheng/三、接口设计/4.就业规划模块'
+        },
+        {
+          text: '5）云自习模块',
+          link: '/documents/zhisheng/三、接口设计/5.云自习模块'
+        },
+      ]
     }
   ]
 }
