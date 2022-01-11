@@ -5,7 +5,7 @@ heroAlt: Logo image
 heroText: 《知升》接口文档
 tagline: 关于《知升》的周边文档
 actionText: Get Started
-actionLink: /documents/Vue/introduce
+actionLink: /documents/zhisheng/三、接口设计
 features:
   # 标题1
   - title: Simplicity First

@@ -1,6 +1,6 @@
 export default {
   lang: 'en-US',
-  title: '《知升》APP',
+  title: '《知升》APP接口文档',
   description: '《知升》接口文档',
   base: "/zhishengServer",
   markdown: {
@@ -49,51 +49,16 @@ export default {
 function getGuideSidebar() {
   return [
     {
-      text: '基础语法',
-      children: [
-        { text: '1. Vue介绍', link: '/documents/Vue/introduce' },
-        { text: '2. MVVM模式', link: '/documents/Vue/mvvm' },
-        { text: '3. 指令', link: '/documents/Vue/directive' },
-        { text: '4. 计算属性', link: '/documents/Vue/computed' },
-        { text: '5. 侦听器', link: '/documents/Vue/watch' }
-      ]
-    },
-   /* {
-      text: 'Vite脚手架',
-      children: [
-        { text: 'Frontmatter', link: '/guide/introduce' },
-        { text: 'Theming', link: '/guide/introduce' },
-        { text: 'API Reference', link: '/guide/introduce' },
-        { text: 'Differences from Vuepress', link: '/guide/introduce' }
-      ]
+      text: '《知升》APP',
+      activeMatch: '^/config/'
     },
     {
-      text: 'VueRouter',
-      children: [
-        { text: 'Frontmatter', link: '/guide/introduce' },
-        { text: 'Theming', link: '/guide/introduce' },
-        { text: 'API Reference', link: '/guide/introduce' },
-        { text: 'Differences from Vuepress', link: '/guide/introduce' }
-      ]
-    },
-
-    {
-      text: 'Vuex',
-      children: [
-        { text: 'Frontmatter', link: '/guide/introduce' },
-        { text: 'Theming', link: '/guide/introduce' },
-        { text: 'API Reference', link: '/guide/introduce' },
-        { text: 'Differences from Vuepress', link: '/guide/introduce' }
-      ]
+      text: '二、数据库设计',
+      link: '/documents/zhisheng/二、数据库设计'
     },
     {
-      text: 'Nuxt',
-      children: [
-        { text: 'Frontmatter', link: '/guide/introduce' },
-        { text: 'Theming', link: '/guide/introduce' },
-        { text: 'API Reference', link: '/guide/introduce' },
-        { text: 'Differences from Vuepress', link: '/guide/introduce' }
-      ]
-    }*/
+      text: '三、接口设计',
+      link: '/documents/zhisheng/三、接口设计'
+    }
   ]
 }
