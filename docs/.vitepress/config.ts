@@ -1,7 +1,7 @@
 export default {
   lang: 'en-US',
-  title: '《知升》APP接口文档',
-  description: '《知升》接口文档',
+  title: '《知升》接口文档',
+  description: '《知升》APP接口文档',
   base: "/zhishengServer",
   markdown: {
     lineNumbers: true
@@ -52,7 +52,7 @@ function getGuideSidebar() {
     },
     {
       text: '二、数据库设计',
-      link: '/documents/zhisheng/二、数据库设计',
+      activeMatch: '^/config/',
       children: [
         {
           text: '1）技术分析',
