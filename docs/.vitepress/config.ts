@@ -34,11 +34,6 @@ export default {
     },
     nav: [
       { text: 'Guide', link: '/', activeMatch: '^/$|^/guide/' },
-      {
-        text: 'Config Reference',
-        link: '/config/basics',
-        activeMatch: '^/config/'
-      }
     ],
     sidebar: {
       '/': getGuideSidebar()
@@ -54,11 +49,11 @@ function getGuideSidebar() {
     },
     {
       text: '二、数据库设计',
-      link: '/documents/zhisheng/二、数据库设计'
+      link: '/docs/documents/zhisheng/二、数据库设计'
     },
     {
       text: '三、接口设计',
-      link: '/documents/zhisheng/三、接口设计'
+      link: '/docs/documents/zhisheng/三、接口设计'
     }
   ]
 }
