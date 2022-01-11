@@ -54,5 +54,5 @@ jobs:
           build_dir: docs/.vitepress/dist 
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          # 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
-          GITHUB_TOKEN: ${{ secrets.zhishengServer_TOKEN }}
+          # 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
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
