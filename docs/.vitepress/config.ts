@@ -1,8 +1,8 @@
 export default {
   lang: 'en-US',
-  title: 'VueThree',
-  description: 'Vue技术文档',
-  base: "/VueCourse",
+  title: '《知升》APP',
+  description: '《知升》接口文档',
+  base: "/zhishengServer",
   markdown: {
     lineNumbers: true
   },
