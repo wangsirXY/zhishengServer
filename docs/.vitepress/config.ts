@@ -47,7 +47,7 @@ function getGuideSidebar() {
       activeMatch: '^/config/'
     },
     {
-      text: '一、项目规范',
+      text: '一、项目规范（重点）',
       activeMatch: '^/config/',
       children: [
         {
