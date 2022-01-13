@@ -47,7 +47,7 @@ function getGuideSidebar() {
       activeMatch: '^/config/'
     },
     {
-      text: '一、代码规范',
+      text: '一、项目规范',
       activeMatch: '^/config/',
       children: [
         {
@@ -55,7 +55,11 @@ function getGuideSidebar() {
           link: '/documents/代码规范'
         },
         {
-          text: '2）git注意事项',
+          text: '2）接口使用',
+          link: '/documents/接口使用',
+        },
+        {
+          text: '3）git注意事项',
           link: '/documents/git注意事项',
         }
       ]
