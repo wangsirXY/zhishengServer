@@ -76,6 +76,10 @@ function getGuideSidebar() {
           text: '2）数据库设计',
           link: '/documents/zhisheng/二、数据库设计/2.数据库设计'
         },
+        {
+          text: '3）数据库默认数据',
+          link: '/documents/zhisheng/二、数据库设计/3.数据库默认数据'
+        }
       ]
     },
     {
