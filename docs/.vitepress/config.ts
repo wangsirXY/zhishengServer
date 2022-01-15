@@ -55,13 +55,17 @@ function getGuideSidebar() {
           link: '/documents/代码规范'
         },
         {
-          text: '2）接口使用',
+          text: '2）git注意事项',
+          link: '/documents/git注意事项',
+        },
+        {
+          text: '3）接口使用',
           link: '/documents/接口使用',
         },
         {
-          text: '3）git注意事项',
-          link: '/documents/git注意事项',
-        }
+          text: '4）时间格式转换',
+          link: '/documents/时间格式转换',
+        },
       ]
     },
     {
