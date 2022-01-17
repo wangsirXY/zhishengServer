@@ -110,6 +110,10 @@ function getGuideSidebar() {
           text: '5）云自习模块',
           link: '/documents/zhisheng/三、接口设计/5.云自习模块'
         },
+        {
+          text: '6）深夜吐槽模块',
+          link: '/documents/zhisheng/三、接口设计/6.深夜吐槽模块'
+        },
       ]
     }
   ]
