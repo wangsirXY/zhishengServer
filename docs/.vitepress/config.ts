@@ -114,6 +114,10 @@ function getGuideSidebar() {
           text: '6）深夜吐槽模块',
           link: '/documents/zhisheng/三、接口设计/6.深夜吐槽模块'
         },
+        {
+          text: '7）掌上社团模块',
+          link: '/documents/zhisheng/三、接口设计/7.掌上社团模块'
+        },
       ]
     }
   ]
