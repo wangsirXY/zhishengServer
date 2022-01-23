@@ -118,6 +118,10 @@ function getGuideSidebar() {
           text: '7）掌上社团模块',
           link: '/documents/zhisheng/三、接口设计/7.掌上社团模块'
         },
+        {
+          text: '8）盲盒交友模块',
+          link: '/documents/zhisheng/三、接口设计/8.盲盒交友模块'
+        },
       ]
     }
   ]
