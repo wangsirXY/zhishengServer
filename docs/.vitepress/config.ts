@@ -91,6 +91,10 @@ function getGuideSidebar() {
       activeMatch: '^/config/',
       children: [
         {
+          text: '文件上传接口',
+          link: '/documents/zhisheng/三、接口设计/文件上传接口'
+        },
+        {
           text: '1）功能模块',
           link: '/documents/zhisheng/三、接口设计/1.功能模块'
         },
