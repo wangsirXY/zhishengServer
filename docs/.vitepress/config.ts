@@ -66,7 +66,7 @@ function getGuideSidebar() {
           text: '4）时间格式转换',
           link: '/documents/时间格式转换',
         },
-      ]
+      ] 
     },
     {
       text: '二、数据库设计',
