@@ -126,6 +126,10 @@ function getGuideSidebar() {
           text: '8）盲盒交友模块',
           link: '/documents/zhisheng/三、接口设计/8.盲盒交友模块'
         },
+        {
+          text: '9）代跑服务模块',
+          link: '/documents/zhisheng/三、接口设计/9.代跑服务模块'
+        },
       ]
     }
   ]
