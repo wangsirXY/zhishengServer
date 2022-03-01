@@ -130,6 +130,10 @@ function getGuideSidebar() {
           text: '9）代跑服务模块',
           link: '/documents/zhisheng/三、接口设计/9.代跑服务模块'
         },
+        {
+          text: '10）公开课模块.md',
+          link: '/documents/zhisheng/三、接口设计/10.公开课模块'
+        },
       ]
     }
   ]
